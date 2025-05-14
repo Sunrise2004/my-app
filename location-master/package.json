@@ -1,0 +1,28 @@
+{
+  "name": "location",
+  "version": "2.0.0",
+  "description": "Web application for mobile that tracks and displays a user's geolocations",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "node bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamfrank/location.git"
+  },
+  "keywords": [],
+  "author": "Frank Thomsen Renard",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/iamfrank/location/issues"
+  },
+  "homepage": "https://iamfrank.github.io/location",
+  "dependencies": {
+    "leaflet": "^1.8.0"
+  },
+  "devDependencies": {
+    "express": "^4.21.2"
+  }
+}
